@@ -12,42 +12,42 @@
     "build": "webpack --mode=production",
     "start": "NODE_ENV=production node server/index.js"
   },
-    "parser": "babel-eslint",
-    "extends": [
-      "plugin:react/recommended",
-      "eslint:recommended",
-      "standard"
+  "parser": "babel-eslint",
+  "extends": [
+    "plugin:react/recommended",
+    "eslint:recommended",
+    "standard"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "semi": [
+      "error",
+      "always"
     ],
-    "settings": {
-      "react": {
-        "version": "detect"
+    "padded-blocks": 0,
+    "arrow-parens": [
+      "error",
+      "as-needed"
+    ],
+    "curly": [
+      "error",
+      "multi-line"
+    ],
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn",
+          "error"
+        ]
       }
-    },
-    "rules": {
-      "semi": [
-        "error",
-        "always"
-      ],
-      "padded-blocks": 0,
-      "arrow-parens": [
-        "error",
-        "as-needed"
-      ],
-      "curly": [
-        "error",
-        "multi-line"
-      ],
-      "no-console": [
-        "error",
-        {
-          "allow": [
-            "warn",
-            "error"
-          ]
-        }
-      ],
-      "react/prop-types": 0
-    },
+    ],
+    "react/prop-types": 0
+  },
   "dependencies": {
     "bcrypt": "3.0.7",
     "dotenv": "8.2.0",
