@@ -33,21 +33,20 @@ cd lunch-picker
 
 ```
 3. Run "npm install"
-``` 
+```
 
 npm install
 
 ```
 4. Run npm dev
-``` 
+```
 
 npm run dev
 
 ```
 5. Open your browser to localhost:3000
-```  
-
-https://localhost:3000 
-
 ```
 
+https://localhost:3000
+
+```
