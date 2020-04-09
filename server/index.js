@@ -4,7 +4,7 @@ const db = require('./database');
 const ClientError = require('./client-error');
 const staticMiddleware = require('./static-middleware');
 const sessionMiddleware = require('./session-middleware');
-const bcrypt = require('bcrypt');
+// const bcrypt = require('bcrypt');
 
 const app = express();
 
