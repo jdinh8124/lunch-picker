@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './header';
 import Picker from './picker';
 import Filters from './filters';
+// import yelp from '../../server/public/images/yelp.png';
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -20,8 +21,8 @@ export default class App extends React.Component {
             <Picker></Picker>
             <hr/>
             <footer>
-              <p>Resturants provided by</p>
-              <img src="../../server/public/images/yelp.png" />
+              <p className="d-inline">Resturants provided by</p>
+              {/* <img className="d-inline" src={yelp} alt="yelp logo" /> */}
             </footer>
           </div>
         </div>
