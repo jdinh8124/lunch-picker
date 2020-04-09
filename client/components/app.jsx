@@ -10,12 +10,11 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div className="main">
-        <div className="container align-center">
+      <div className="main d-flex">
+        <div className="container align-items-center">
           <div className="col-6 offset-3 text-center">
             <Header></Header>
             <hr/>
-            hello
             <Picker></Picker>
             <hr/>
           </div>

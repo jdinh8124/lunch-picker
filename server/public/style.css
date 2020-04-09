@@ -1,3 +1,7 @@
 .main{
-  height: 25vh;
+  height: 50vh;
+}
+
+hr{
+  border: 1px black solid;
 }
