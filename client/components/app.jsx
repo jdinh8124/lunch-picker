@@ -19,6 +19,10 @@ export default class App extends React.Component {
             <hr/>
             <Picker></Picker>
             <hr/>
+            <footer>
+              <p>Resturants provided by</p>
+              <img src="../../server/public/images/yelp.png" />
+            </footer>
           </div>
         </div>
       </div>
