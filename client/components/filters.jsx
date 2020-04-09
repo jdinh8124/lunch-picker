@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Picker(props) {
+export default function Filters(props) {
 
   return (
     <div>

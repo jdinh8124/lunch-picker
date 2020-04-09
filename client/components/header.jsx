@@ -4,7 +4,7 @@ export default function Header(props) {
 
   return (
     <div >
-      hello
+      <h1>Lunch Picker</h1>
     </div>
   );
 }
