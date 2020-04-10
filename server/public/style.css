@@ -5,3 +5,7 @@
 hr{
   border: 1px black solid;
 }
+
+button{
+  border-radius: 10px;
+}
