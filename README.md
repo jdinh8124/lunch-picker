@@ -14,7 +14,7 @@ A full stack Node.js and React lunch picking app that stores data in PostgreSQL.
 - HTML5
 - CSS3
 - Express.js
-
+- yelp Api
 
 ## Takeaways
 
