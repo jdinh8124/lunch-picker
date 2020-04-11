@@ -15,6 +15,7 @@ A full stack Node.js and React lunch picking app that stores data in PostgreSQL.
 - CSS3
 - Express.js
 - yelp Api
+- Boostrap 4
 
 ## Takeaways
 
@@ -24,7 +25,6 @@ A full stack Node.js and React lunch picking app that stores data in PostgreSQL.
 ```
 
 git clone https://github.com/jdinh8124/lunch-picker
-
 ```
 2. Go into this repositorys directory using a terminal
 ```
