@@ -4,16 +4,16 @@ export default function Picker(props) {
 
   return (
     <div className="spinner-content">
-      <div>Pizza</div>
-      <div>Burgers</div>
-      <div>Fries</div>
-      <div>Soup</div>
-      <div>Chicken</div>
-      <div>Boba</div>
-      <div>Shakes</div>
-      <div>Pho</div>
-      <div>Rice</div>
-      <div>Bread</div>
+      <div className="m-4">Pizza</div>
+      <div className="m-4">Burgers</div>
+      <div className="m-4">Fries</div>
+      <div className="m-4">Soup</div>
+      <div className="m-4">Chicken</div>
+      <div className="m-4">Boba</div>
+      <div className="m-4">Shakes</div>
+      <div className="m-4">Pho</div>
+      <div className="m-4">Rice</div>
+      <div className="m-4">Bread</div>
     </div>
   );
 }
