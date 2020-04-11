@@ -24,3 +24,7 @@ button{
     .spinner {
         transform: translate(0, 0);
     }
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
