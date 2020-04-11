@@ -13,5 +13,7 @@ button{
 .spinner-content{
   min-height: 300px;
   max-height: 300px;
-  overflow-y: hidden;
+  overflow-y: scroll;
+  transition-duration: 2400ms;
+  /* transform: translate(0px, -216px) */
 }
