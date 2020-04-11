@@ -15,5 +15,12 @@ button{
   max-height: 300px;
   overflow-y: scroll;
   transition-duration: 2400ms;
+       -webkit-animation:slide 16s infinite;
+     -moz-animation:slide 16s infinite;
+     animation:slide 16s infinite;
   /* transform: translate(0px, -216px) */
 }
+
+    .spinner {
+        transform: translate(0, 0);
+    }
