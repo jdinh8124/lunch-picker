@@ -18,7 +18,7 @@ A full stack Node.js and React lunch picking app that stores data in PostgreSQL.
 - Boostrap 4
 
 ## Takeaways
-
+- The oauth process can be quite difficult at times
 
 ## Getting Started
 1. Clone this repository from your github to your local computer
