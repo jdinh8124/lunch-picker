@@ -20,6 +20,10 @@ A full stack Node.js and React lunch picking app that stores data in PostgreSQL.
 ## Takeaways
 - The oauth process can be quite difficult at times
 
+## Planned Additions
+- Friend's input to choices
+- Google Map integration 
+
 ## Getting Started
 1. Clone this repository from your github to your local computer
 ```
