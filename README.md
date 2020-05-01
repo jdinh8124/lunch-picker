@@ -1,6 +1,6 @@
 # lunch-picker
 
-> - Maintained by: `James Dinh - jdinh8124`
+> - [WIP] Maintained by: `James Dinh - jdinh8124`
 
 
 ## Summary
